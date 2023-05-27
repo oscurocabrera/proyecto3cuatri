@@ -1,0 +1,37 @@
+namepace MenuOpciones
+{
+
+class program
+{
+    static void Main (string[] args)
+    {
+int opcion=0;           
+do
+{
+console.whiteline("menu de opciones");
+console.writeline("/n"+
+"/n 1.- Nombre"+
+"/n 2.-Pasatiempo"
+"/n 3.-Salir/n");
+cosole.writeline("Digite una opción:");
+opcion = convert.TonInt32(console.Readline());
+switch(opcion)
+{
+    case 1:
+    console.writeline("Mi nombre es eduardo");
+    break;
+    case 2:
+    console.writeline("Mi pasatiempo favorito es ver videos");
+    break;
+    console.writeline("saliendo de la aplicación");
+    break;
+    default:
+    console.writeline("Digite una opción valida");
+    break;
+}
+console.Readkey();
+
+} while option (    !=3 );
+    }
+}
+}
